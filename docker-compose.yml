@@ -1,0 +1,6 @@
+services:
+  mc-simulator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mc-simulator
